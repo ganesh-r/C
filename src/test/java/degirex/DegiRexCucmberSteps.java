@@ -9,7 +9,7 @@ public class DegiRexCucmberSteps extends TestCase {
 	DegiRexDAO degRexDAO = new DegiRexDAO();
 	String button;
 	
-	//Hello World
+	
 
 	@Given("^\"([^\"]*)\" has a Smart phone with \"([^\"]*)\"$")
 	public void has_a_Smart_phone_with(String person, String storage) throws Throwable {
