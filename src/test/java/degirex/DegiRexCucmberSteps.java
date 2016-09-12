@@ -28,7 +28,7 @@ public class DegiRexCucmberSteps extends TestCase {
 	@When("^\"([^\"]*)\" clicks to Scan record from the DegiRex application$")
 	public void clicks_to_Scan_record_from_the_DegiRex_application(String person) throws Throwable {
 		degRexDAO.setPerson(person);
-		assertEquals("Bob", "Bob");
+		assertEquals("Bob", "Narsh");
 
 	}
 
